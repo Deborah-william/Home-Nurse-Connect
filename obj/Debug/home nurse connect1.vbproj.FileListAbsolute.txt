@@ -1,0 +1,8 @@
+c:\users\debor\documents\visual studio 2012\Projects\home nurse connect1\home nurse connect1\bin\home nurse connect1.dll
+c:\users\debor\documents\visual studio 2012\Projects\home nurse connect1\home nurse connect1\bin\home nurse connect1.pdb
+c:\users\debor\documents\visual studio 2012\Projects\home nurse connect1\home nurse connect1\bin\home nurse connect1.xml
+c:\users\debor\documents\visual studio 2012\Projects\home nurse connect1\home nurse connect1\obj\Debug\home_nurse_connect1.Resources.resources
+c:\users\debor\documents\visual studio 2012\Projects\home nurse connect1\home nurse connect1\obj\Debug\home nurse connect1.vbproj.GenerateResource.Cache
+c:\users\debor\documents\visual studio 2012\Projects\home nurse connect1\home nurse connect1\obj\Debug\home nurse connect1.dll
+c:\users\debor\documents\visual studio 2012\Projects\home nurse connect1\home nurse connect1\obj\Debug\home nurse connect1.xml
+c:\users\debor\documents\visual studio 2012\Projects\home nurse connect1\home nurse connect1\obj\Debug\home nurse connect1.pdb

@@ -1,0 +1,58 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="home_nurse_connect1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem Text="Admin" Value="Admin">
+                        <asp:MenuItem Text="Login" Value="Login"></asp:MenuItem>
+                        <asp:MenuItem Text="Delete Account" Value="Log Off"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Customer" Value="Customer">
+                        <asp:MenuItem Text="Login Customer" Value="Login"></asp:MenuItem>
+                        <asp:MenuItem Text="Book Appointment" Value="Book Appointment"></asp:MenuItem>
+                        <asp:MenuItem Text="Payments" Value="Payments"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Maid" Value="Maid">
+                        <asp:MenuItem Text="Login Maid" Value="Login"></asp:MenuItem>
+                        <asp:MenuItem Text="Availability" Value="Availability"></asp:MenuItem>
+                        <asp:MenuItem Text="Skills" Value="Skills"></asp:MenuItem>
+                        <asp:MenuItem Text="Delete Maid Account" Value="Delete Account"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Agency" Value="Agency">
+                        <asp:MenuItem Text="Login Agency" Value="Login"></asp:MenuItem>
+                        <asp:MenuItem Text="Services" Value="Services"></asp:MenuItem>
+                        <asp:MenuItem Text="Status" Value="Status"></asp:MenuItem>
+                        <asp:MenuItem Text="Delete Agency Account" Value="Delete Account"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Service" Value="Service">
+                        <asp:MenuItem Text="Add Categories" Value="Add Categories"></asp:MenuItem>
+                        <asp:MenuItem Text="Booked Services" Value="Booked Services"></asp:MenuItem>
+                        <asp:MenuItem Text="Available Services" Value="Available Services"></asp:MenuItem>
+                        <asp:MenuItem Text="Remove Services" Value="Remove Services"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Appointment" Value="Appointment">
+                        <asp:MenuItem Text="Appointment details" Value="Appointment details"></asp:MenuItem>
+                        <asp:MenuItem Text="Cancel Appointments" Value="Cancel Appointments"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
